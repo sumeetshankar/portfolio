@@ -13,40 +13,47 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m a passionate Software Developer who enjoys building
+              real-world applications and solving practical problems through
+              technology. I love transforming ideas into functional,
+              user-friendly, and scalable web solutions.
               <br />
               <br />
               I’m proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  HTML, CSS, JavaScript, C, C++, SQL, and React.js{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              and I have experience working with
+              <i>
+                <b className="purple">
+                  {" "}
+                  Node.js, REST APIs, MongoDB, and SQL Server{" "}
+                </b>
+              </i>
+              for backend development.
               <br />
               <br />
               My key areas of interest include developing
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Full-Stack Web Applications, Database-Driven Systems,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              and creating responsive, performance-optimized user interfaces.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              Whenever possible, I enjoy building projects using
+              <b className="purple"> React.js </b> for frontend and
+              <b className="purple"> Node.js </b> with
+              <b className="purple"> MongoDB / SQL </b> for backend
+              development.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
@@ -57,4 +64,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
